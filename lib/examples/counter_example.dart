@@ -15,8 +15,14 @@ class CounterExample extends HookWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text(count.value.toString()),
-            const Text("Counter"),
+            Text(
+              count.value.toString(),
+              style: const TextStyle(fontSize: 20),
+            ),
+            const Text(
+              "Counter",
+              style: TextStyle(fontSize: 20),
+            ),
             const SizedBox(height: 30),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
