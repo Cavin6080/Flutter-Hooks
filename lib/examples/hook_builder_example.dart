@@ -1,8 +1,10 @@
+import 'package:auto_route/annotations.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 
-class HookBuilderExample extends HookWidget {
-  const HookBuilderExample({super.key});
+@RoutePage()
+class HookBuilderExampleScreen extends HookWidget {
+  const HookBuilderExampleScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
